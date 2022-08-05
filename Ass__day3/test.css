@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.password__div,.re--password__div{
+  position: relative;
+  width:200px;
+}
+#password{
+  width:100%;
+}
+.icon{
+  display: inline;
+  right: 3%;
+  top: 20%;
+  position: absolute;
+}
+.icon:hover{
+  cursor: pointer;
+}
+.close--icon{
+  display: none;
+}
+button{
+  background-color: transparent;
+  border: none;
+}
